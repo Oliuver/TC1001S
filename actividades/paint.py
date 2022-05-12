@@ -13,6 +13,8 @@ from turtle import *
 
 from freegames import vector
 
+from math import sqrt
+
 
 def line(start, end):
     """Draw line from start to end."""
@@ -42,10 +44,13 @@ def circle(start, end):
     goto(start.x, start.y)
     down()
     
+    width = sqrt((end.x - start.x)**2) + ((end.y - start.y)**2)
+
     begin_fill()
 
+
     for count in range(360):
-        forward((end.x - start.x)/360)
+        forward(width/360)
         left(1)
 
     end_fill()
