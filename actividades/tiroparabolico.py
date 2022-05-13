@@ -3,7 +3,7 @@ from turtle import *
 from freegames import vector
 
 ball = vector(-200, -200)
-speed = vector(10, 10)
+speed = vector(10, 10) # Se cambió la velocidad
 targets = []
 
 def tap(x, y):
@@ -11,8 +11,8 @@ def tap(x, y):
     if not inside(ball):
         ball.x = -199
         ball.y = -199
-        speed.x = (x + 200) / 15
-        speed.y = (y + 200) / 15
+        speed.x = (x + 200) / 15 # Se cambió la velocidad en X
+        speed.y = (y + 200) / 15 # Se cambió la velocidad en Y
 
 def inside(xy):
     "Return True if xy within screen."
@@ -55,10 +55,10 @@ def move():
 
     draw()
 
-    # Ahora los objetivos se devuelven al pruncipio
+    # Ahora los objetivos se devuelven al principio
     for target in targets:
         if not inside(target):
-            target.x = 220
+            target.x = 220 # El objetivo vuelve al principio de la pantalla en vez de que se acabe el juego
 
     ontimer(move, 50)
 
