@@ -11,3 +11,5 @@ A000232304
 * El programa pruebac es un programa en lenguaje C
 * El programa pruebapy es un programa en lenguaje Python
 * El programa paint es un programa para hacer dibujos, como líneas, cuadrados, triángulos y círculos de distintos colores
+* El programa pacman es una interpretación del juego del mismo nombre
+* El programa tiroparabolico es un juego donde se lanzan balones hacia objetivos
