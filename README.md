@@ -14,3 +14,4 @@ A000232304
 * El programa pacman es una interpretación del juego del mismo nombre
 * El programa tiroparabolico es un juego donde se lanzan balones hacia objetivos
 * El programa snake es una interpretación del juego Snake
+* El programa memoria es un juego de memoria modificado del ejemplo
